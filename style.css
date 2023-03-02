@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+.mainC {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.sC {
+    width: 16rem;
+    aspect-ratio: 1.25/1;
+    background-color: cornsilk;
+    margin: 0.5rem;
+    padding: 0.25rem;
+    border: 0.15rem solid black;
+    border-radius: 4.5rem;
+}
+
+.sC img {
+    width: 15.35rem;
+    /* padding: 0.5rem; */
+    aspect-ratio: 0.95/1;
+    border-radius: 5rem;
+    align-self: center;
+    object-fit: cover;
+    cursor: pointer;
+}
+.controllerM{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: cyan;
+}
+.controllerM i{
+    font-size: 3rem;
+    margin: 0.5rem;
+    font-weight: 600;
+    
+}
+.arrow i{
+    cursor: pointer;
+    font-size: 2.5rem;
+    color: grey;
+    margin: 0.5rem;
+    }
+.songs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: auto;
+    max-width: 100%;
+    overflow: auto;
+}
