@@ -31,17 +31,24 @@
     object-fit: cover;
     cursor: pointer;
 }
+.Controllers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .controllerM{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
     background: cyan;
 }
-.controllerM i{
+.Controllers i{
     font-size: 3rem;
     margin: 0.5rem;
     font-weight: 600;
+    color: blueviolet;
     
 }
 .arrow i{
@@ -58,4 +65,36 @@
     width: auto;
     max-width: 100%;
     overflow: auto;
+}
+#seekbar{
+    width: 98vw;
+    height: 0.5rem;
+    background: grey;
+    border-radius: 0.5rem;
+    margin: 0.5rem 0;
+    display: none;
+}
+#Play::before {
+    background-image: linear-gradient(109deg, cyan, cyan);
+    padding: 0.45rem;
+    border-radius: 2rem;
+}
+#Play {
+    background-image: linear-gradient(109deg, blue, red);
+    font-size: 3rem;
+    margin: 1rem 0.5rem;
+    padding: 1rem 0.75rem;
+    border-radius: 2.75rem;
+}
+#vol {
+    font-size: 2rem;
+    margin: 0.5rem;
+    font-weight: 600;
+    color: blueviolet;
+    margin: 0.5rem 10rem 0.5rem 0.5rem;
+}
+#volBar{
+    display: flex;
+    width: 10rem;
+    display: none;
 }

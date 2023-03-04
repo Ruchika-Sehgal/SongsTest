@@ -14,7 +14,7 @@
         <div class="songs">
 
             <div class="sC">
-                <img src="./images/bhakti/ganesha.jpeg" alt="Ganesha">
+                <img src="./images/bhakti/ganesha.jpeg" alt="Ganesha" onclick="playThis()">
             </div>
             <div class="sC">
                 <img src="./images/bhakti/RamNaMilenge.jpeg" alt="RamNaMilenge">
@@ -30,9 +30,16 @@
     </div>
         
     <div class="controllerM">
-        <i class="fa-solid fa-backward" id="PrevSong"></i>
-        <i class="fa fa-play" aria-hidden="true" id="Play"></i>
-        <i class="fa-solid fa-forward" id="NextSong"></i>
+        <input type="range" min="0" max="100" value="0" id="seekbar">
+        <div class="Controllers">
+            <i class="fa-solid fa-volume-high" id="vol"></i>
+            <input type="range" min="0" max="100" value="50" id="volBar">
+            
+            <i class="fa-solid fa-backward" id="PrevSong"></i>
+            <i class="fa fa-play" aria-hidden="true" id="Play"></i>
+            <i class="fa-solid fa-forward" id="NextSong"></i>
+
+        </div>
     </div>
 </body>
 </html>
