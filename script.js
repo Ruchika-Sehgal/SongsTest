@@ -37,11 +37,11 @@ async function setbg(){
 //dynamic slider
 //functionality 1: create a slider that produces images of the same size
 let bhaktiS = [
-    { "img": "./images/bhakti/ganesha.jpeg", "song": "./songs/bhakti/DevaShreeGanesha.mp3" },
-    { "img": "./images/bhakti/RamNaMilenge.jpeg", "song": "./songs/bhakti/RamNaMilenge.mp3" },
-    { "img": "./images/bhakti/mangal_bhavan.jpg", "song": "./songs/bhakti/mangalBhawan.mp3" },
-    { "img": "./images/bhakti/Sai.jpeg", "song": "./songs/bhakti/Sai.mp3" },
-    { "img": "./images/bhakti/shriKrishna.jpeg", "song": "./songs/bhakti/ShriKrishnaGovindHareMurari.mp3" },
+    { "img": "images/bhakti/ganesha.jpeg", "song": "songs/bhakti/DevaShreeGanesha.mp3" },
+    { "img": "images/bhakti/RamNaMilenge.jpeg", "song": "songs/bhakti/RamNaMilenge.mp3" },
+    { "img": "images/bhakti/mangal_bhavan.jpg", "song": "songs/bhakti/mangalBhawan.mp3" },
+    { "img": "./images/bhakti/Sai.jpeg", "song": "songs/bhakti/Sai.mp3" },
+    { "img": "./images/bhakti/shriKrishna.jpeg", "song": "songs/bhakti/ShriKrishnaGovindHareMurari.mp3" },
 ]
 let currentIndex = 0;
 let songs = document.getElementsByClassName("songs")[0];
