@@ -43,7 +43,7 @@ let bhaktiS = [
     { "img": "https://github.com/Ruchika-Sehgal/SongsTest/images/bhakti/Sai.jpeg", "song": "https://github.com/Ruchika-Sehgal/SongsTest/songs/bhakti/Sai.mp3" },
     { "img": "https://github.com/Ruchika-Sehgal/SongsTest/images/bhakti/shriKrishna.jpeg", "song": "https://github.com/Ruchika-Sehgal/SongsTest/songs/bhakti/ShriKrishnaGovindHareMurari.mp3" },
 ]
-let currentIndex = 0;
+let currentIndex = 4;
 let songs = document.getElementsByClassName("songs")[0];
 let RightArrow = document.querySelector(".arrow");
 RightArrow.addEventListener("click", createNextElement);
